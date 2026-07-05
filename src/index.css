@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-dark: #0a2540; /* Navy Blue */
+  --color-brand-medium: #11325c; /* Medium Navy Blue */
+  --color-brand-accent: #ea7a00; /* Warm Corporate Orange */
+  --color-brand-gold: #f2a104; /* Accent Orange/Gold */
+  --color-brand-light: #F8FAFC; /* Clean Off-White */
+
+  /* Override Tailwind Indigo family with gorgeous professional Navy Blues */
+  --color-indigo-50: #f0f5fa;
+  --color-indigo-100: #e1ecf7;
+  --color-indigo-200: #bcd7ef;
+  --color-indigo-300: #81b6e4;
+  --color-indigo-400: #4292d3;
+  --color-indigo-500: #1b6ca8; /* Steel/Navy Highlight */
+  --color-indigo-600: #145082;
+  --color-indigo-700: #103f66;
+  --color-indigo-800: #0d3252;
+  --color-indigo-900: #0a2540; /* Deep Corporate Navy Blue */
+  --color-indigo-950: #051424; /* Extra Deep Navy Black */
+
+  /* Override Tailwind Amber family with CA Corporate Orange */
+  --color-amber-50: #fff9eb;
+  --color-amber-100: #feeec3;
+  --color-amber-200: #fddb83;
+  --color-amber-300: #fcbe3e;
+  --color-amber-400: #fba118;
+  --color-amber-500: #ea7a00; /* Vibrant Orange */
+  --color-amber-600: #ca5f00;
+  --color-amber-700: #9e4300;
+  --color-amber-800: #7a3203;
+  --color-amber-900: #642a05;
+  --color-amber-950: #3a1300;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ea7a00;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-light);
+  color: #0F172A;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Classes styled for Light theme */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(10, 37, 64, 0.08);
+}
+
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(10, 37, 64, 0.1);
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ==========================================================================
+   Admin Dashboard Theme Alignment (Navy Blue & Orange Theme Override)
+   ========================================================================== */
+#admin-dashboard-panel, #admin-login-screen {
+  background-color: #F8FAFC !important;
+  color: #1E293B !important;
+}
+
+#admin-dashboard-panel h1,
+#admin-dashboard-panel h2,
+#admin-dashboard-panel h3,
+#admin-dashboard-panel label,
+#admin-dashboard-panel th {
+  color: #0a2540 !important;
+}
+
+#admin-dashboard-panel p,
+#admin-dashboard-panel span:not(.font-mono),
+#admin-dashboard-panel td {
+  color: #475569 !important;
+}
+
+#admin-dashboard-panel .text-amber-500,
+#admin-dashboard-panel h3.text-amber-500,
+#admin-dashboard-panel span.text-amber-500 {
+  color: #ea7a00 !important;
+}
+
+#admin-dashboard-panel .border-white\/10,
+#admin-dashboard-panel .border-white\/5,
+#admin-dashboard-panel .border-slate-100,
+#admin-dashboard-panel div,
+#admin-dashboard-panel section,
+#admin-dashboard-panel main,
+#admin-dashboard-panel aside,
+#admin-dashboard-panel form,
+#admin-dashboard-panel table,
+#admin-dashboard-panel tr,
+#admin-dashboard-panel th,
+#admin-dashboard-panel td {
+  border-color: #E2E8F0 !important;
+}
+
+#admin-dashboard-panel input,
+#admin-dashboard-panel textarea,
+#admin-dashboard-panel select {
+  background-color: #F1F5F9 !important;
+  border: 1px solid #CBD5E1 !important;
+  color: #0F172A !important;
+  border-radius: 4px !important;
+}
+
+#admin-dashboard-panel input:focus,
+#admin-dashboard-panel textarea:focus,
+#admin-dashboard-panel select:focus {
+  background-color: #FFFFFF !important;
+  border-color: #ea7a00 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(234, 122, 0, 0.1) !important;
+}
+
+/* Buttons and Action triggers */
+#admin-dashboard-panel button.bg-amber-500 {
+  background-color: #0a2540 !important;
+  color: #FFFFFF !important;
+  border-radius: 4px !important;
+}
+
+#admin-dashboard-panel button.bg-amber-500:hover {
+  background-color: #11325c !important;
+}
+
+#admin-dashboard-panel button.text-slate-950 {
+  color: #FFFFFF !important;
+}
+
+#admin-dashboard-panel .bg-slate-950 {
+  background-color: #F8FAFC !important;
+}
+
+#admin-dashboard-panel .bg-slate-900 {
+  background-color: #FFFFFF !important;
+}
+
+#admin-dashboard-panel .text-slate-400 {
+  color: #64748B !important;
+}
+
+#admin-dashboard-panel .text-slate-300 {
+  color: #475569 !important;
+}
+
+/* Table custom overrides */
+#admin-dashboard-panel table thead {
+  background-color: #EEF2F6 !important;
+}
+
+#admin-dashboard-panel table tbody tr {
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+
+#admin-dashboard-panel table tbody tr:hover {
+  background-color: #F8FAFC !important;
+}
+
+/* Form block adjustments */
+#admin-dashboard-panel div[key] {
+  background-color: #F8FAFC !important;
+  border: 1px solid #E2E8F0 !important;
+}

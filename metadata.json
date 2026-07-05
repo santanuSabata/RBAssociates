@@ -1,0 +1,6 @@
+{
+  "name": "RB Associates",
+  "description": "Premium Chartered Accountant Services website for tax management, accounting, compliance, and financial solutions, complete with an Admin CMS Dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
