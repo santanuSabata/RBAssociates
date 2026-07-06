@@ -269,13 +269,14 @@ export default function Contact({ settings }: ContactProps) {
       <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto mb-10">
         <div className="rounded overflow-hidden border border-slate-200 shadow-md h-[420px] bg-slate-100 relative">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118983.83401569424!2d81.56241315849884!3d21.261771146603417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dda23be28229%3A0x263e2030c109f40!2sRaipur%2C%20Chhattisgarh!5e0!3m2!1sen!2sin!4v1711111111111!5m2!1sen!2sin" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29744.761017985405!2d81.55107947493565!3d21.267701769733794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28e100245706bf%3A0x1c117f5f579120a1!2sHousing%20Board%20Colony!5e0!3m2!1sen!2sin!4v1783311805413!5m2!1sen!2sin" 
             className="w-full h-full border-0 opacity-90"
             allowFullScreen={false} 
             loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
             title="RB Associates Location"
           />
+          
           <div className="absolute top-6 left-6 p-4 rounded bg-white/95 border border-slate-200 shadow-md text-left max-w-xs pointer-events-none">
             <span className="text-[10px] text-indigo-900 font-mono uppercase font-bold block">Raipur HQ</span>
             <p className="text-slate-800 text-xs mt-1 leading-relaxed font-sans font-medium">
