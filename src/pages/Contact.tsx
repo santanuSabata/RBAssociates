@@ -276,13 +276,14 @@ export default function Contact({ settings }: ContactProps) {
             referrerPolicy="no-referrer-when-downgrade"
             title="RB Associates Location"
           />
-          
+         {/* 
           <div className="absolute top-6 left-6 p-4 rounded bg-white/95 border border-slate-200 shadow-md text-left max-w-xs pointer-events-none">
             <span className="text-[10px] text-indigo-900 font-mono uppercase font-bold block">Raipur HQ</span>
             <p className="text-slate-800 text-xs mt-1 leading-relaxed font-sans font-medium">
               Corporate Tower, VIP Road, Raipur, Chhattisgarh - 492001
             </p>
           </div>
+          */}
         </div>
       </section>
 
