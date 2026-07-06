@@ -26,10 +26,10 @@ export default function Footer({ settings, setActivePage }: FooterProps) {
   return (
     <footer className="bg-slate-50 text-slate-600 border-t border-slate-200" id="app-footer">
       {/* Top Banner Accent */}
-      <div className="h-1 w-full bg-indigo-900" />
+      <div className="h-1 w-full bg-orange-600" />
       
       {/* Main Footer Links & Info */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Brand Section */}
         <div className="space-y-6">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => handleFooterLinkClick('home')}>
@@ -37,20 +37,15 @@ export default function Footer({ settings, setActivePage }: FooterProps) {
               <img 
                 src={settings.websiteLogo} 
                 alt={settings.websiteName || "Logo"} 
-                className="h-9 w-auto max-w-[120px] object-contain" 
+                className="h-15 w-auto max-w-[150px] object-contain" 
                 referrerPolicy="no-referrer"
               />
             ) : (
-              <div className="h-9 w-9 rounded bg-indigo-900 flex items-center justify-center font-bold font-display text-white text-lg">
+              <div className="h-15 w-15 rounded bg-orange-600 flex items-center justify-center font-bold font-display text-white text-lg">
                 RB
               </div>
             )}
-            <div>
-              <span className="text-lg font-bold font-display tracking-tight text-slate-900 block">
-                {settings.websiteName}
-              </span>
-              <span className="text-[8px] text-indigo-600 tracking-widest uppercase font-mono font-semibold block -mt-1">Chartered Accountants</span>
-            </div>
+             
           </div>
           <p className="text-sm text-slate-500 leading-relaxed font-sans">
             {settings.footerDescription || settings.shortDescription}
@@ -63,7 +58,7 @@ export default function Footer({ settings, setActivePage }: FooterProps) {
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="h-9 w-9 rounded bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-indigo-600 hover:border-indigo-600/30 hover:bg-indigo-50 transition-all duration-200 shadow-sm"
+                  className="h-9 w-9 rounded bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-orange-600 hover:border-orange-600/30 hover:bg-orange-50 transition-all duration-200 shadow-sm"
                   aria-label={social.label}
                 >
                   {social.icon}
@@ -75,7 +70,7 @@ export default function Footer({ settings, setActivePage }: FooterProps) {
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-slate-900 text-xs font-bold tracking-widest uppercase mb-6 font-display border-l-2 border-indigo-900 pl-3">
+          <h3 className="text-slate-900 text-xs font-bold tracking-widest uppercase mb-6 font-display border-l-2 border-orange-600 pl-3">
             Quick Navigation
           </h3>
           <ul className="space-y-3 text-sm font-medium">
@@ -90,7 +85,7 @@ export default function Footer({ settings, setActivePage }: FooterProps) {
               <li key={link.id}>
                 <button
                   onClick={() => handleFooterLinkClick(link.id)}
-                  className="text-slate-500 hover:text-indigo-900 hover:translate-x-1 transition-all duration-200 text-left cursor-pointer"
+                  className="text-slate-500 hover:text-orange-600 hover:translate-x-1 transition-all duration-200 text-left cursor-pointer"
                 >
                   &rarr; {link.label}
                 </button>
@@ -101,72 +96,100 @@ export default function Footer({ settings, setActivePage }: FooterProps) {
 
         {/* Core Financial Services */}
         <div>
-          <h3 className="text-slate-900 text-xs font-bold tracking-widest uppercase mb-6 font-display border-l-2 border-indigo-900 pl-3">
+          <h3 className="text-slate-900 text-xs font-bold tracking-widest uppercase mb-6 font-display border-l-2 border-orange-600 pl-3">
             Core Expertises
           </h3>
           <ul className="space-y-3 text-sm text-slate-500 font-medium">
             <li>
-              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-indigo-900 transition-colors text-left">
-                &bull; Income Tax Consultancy & ITR
+              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-orange-600 transition-colors text-left">
+                &bull; Income Tax Consultancy
               </button>
             </li>
             <li>
-              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-indigo-900 transition-colors text-left">
-                &bull; GST Registrations & Returns
+              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-orange-600 transition-colors text-left">
+                &bull; GST Registrations
               </button>
             </li>
             <li>
-              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-indigo-900 transition-colors text-left">
+              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-orange-600 transition-colors text-left">
                 &bull; Statutory & Tax Auditing
               </button>
             </li>
             <li>
-              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-indigo-900 transition-colors text-left">
-                &bull; Corporate Bookkeeping & Accounting
+              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-orange-600 transition-colors text-left">
+                &bull; Corporate Bookkeeping
               </button>
             </li>
             <li>
-              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-indigo-900 transition-colors text-left">
-                &bull; Company & LLP Registrations
+              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-orange-600 transition-colors text-left">
+                &bull; Company & LLP Reg.
               </button>
             </li>
             <li>
-              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-indigo-900 transition-colors text-left">
-                &bull; MCA / ROC Secretarial Filing
+              <button onClick={() => handleFooterLinkClick('services')} className="hover:text-orange-600 transition-colors text-left">
+                &bull; MCA / ROC Secretarial
               </button>
             </li>
           </ul>
         </div>
 
+        {/* Useful Links */}
+        <div>
+          <h3 className="text-slate-900 text-xs font-bold tracking-widest uppercase mb-6 font-display border-l-2 border-orange-600 pl-3">
+            Useful Links
+          </h3>
+          <ul className="space-y-3 text-sm text-slate-500 font-medium">
+            {[
+              { label: 'Income Tax Dept.', url: 'https://www.incometax.gov.in/' },
+              { label: 'GST', url: 'https://www.gst.gov.in/' },
+              { label: 'Min. of Corporate Affairs', url: 'https://www.mca.gov.in/' },
+              { label: 'Employees Provident Fund', url: 'https://www.epfindia.gov.in/' },
+              { label: 'CBIC', url: 'https://www.cbic.gov.in/' },
+            ].map((link, idx) => (
+              <li key={idx}>
+                <a 
+                  href={link.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-orange-600 transition-colors text-left flex items-start"
+                >
+                  <span className="mr-2">&bull;</span>
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         {/* Dynamic Contact Details */}
         <div>
-          <h3 className="text-slate-900 text-xs font-bold tracking-widest uppercase mb-6 font-display border-l-2 border-indigo-900 pl-3">
+          <h3 className="text-slate-900 text-xs font-bold tracking-widest uppercase mb-6 font-display border-l-2 border-orange-600 pl-3">
             Office Headquarters
           </h3>
           <ul className="space-y-4 text-sm">
             <li className="flex gap-3">
-              <MapPin size={18} className="text-indigo-900 shrink-0 mt-0.5" />
+              <MapPin size={18} className="text-orange-600 shrink-0 mt-0.5" />
               <span className="text-slate-500 leading-relaxed font-sans text-xs font-medium">
                 {settings.officeAddress}
               </span>
             </li>
             <li className="flex gap-3 items-center">
-              <Phone size={16} className="text-indigo-900 shrink-0" />
+              <Phone size={16} className="text-orange-600 shrink-0" />
               <div className="flex flex-col text-xs font-mono text-slate-600 font-semibold">
-                <a href={`tel:${settings.primaryMobile}`} className="hover:text-indigo-600 transition-colors">
+                <a href={`tel:${settings.primaryMobile}`} className="hover:text-orange-600 transition-colors">
                   {settings.primaryMobile}
                 </a>
                 {settings.secondaryMobile && (
-                  <a href={`tel:${settings.secondaryMobile}`} className="hover:text-indigo-600 transition-colors">
+                  <a href={`tel:${settings.secondaryMobile}`} className="hover:text-orange-600 transition-colors">
                     {settings.secondaryMobile}
                   </a>
                 )}
               </div>
             </li>
             <li className="flex gap-3 items-center">
-              <Mail size={16} className="text-indigo-900 shrink-0" />
+              <Mail size={16} className="text-orange-600 shrink-0" />
               <div className="flex flex-col text-xs font-mono text-slate-600 font-semibold">
-                <a href={`mailto:${settings.contactEmail}`} className="hover:text-indigo-600 transition-colors">
+                <a href={`mailto:${settings.contactEmail}`} className="hover:text-orange-600 transition-colors">
                   {settings.contactEmail}
                 </a>
               </div>
@@ -182,9 +205,9 @@ export default function Footer({ settings, setActivePage }: FooterProps) {
             {settings.copyrightText || `© ${currentYear} RB Associates. All rights reserved.`}
           </span>
           <div className="flex items-center gap-6">
-            <button onClick={() => handleFooterLinkClick('about')} className="hover:text-indigo-900 transition-colors">Terms of Service</button>
-            <button onClick={() => handleFooterLinkClick('about')} className="hover:text-indigo-900 transition-colors">Privacy Policy</button>
-            <span className="text-indigo-900/60 font-semibold">Designed for Premium Corporate Credibility</span>
+            <button onClick={() => handleFooterLinkClick('about')} className="hover:text-orange-600 transition-colors">Terms of Service</button>
+            <button onClick={() => handleFooterLinkClick('about')} className="hover:text-orange-600 transition-colors">Privacy Policy</button>
+            <span className="text-orange-600/60 font-semibold">Designed for Premium Corporate Credibility</span>
           </div>
         </div>
       </div>

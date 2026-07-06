@@ -155,7 +155,7 @@ export default function Home({ settings, cms, services, testimonials, team, jour
             >
               <button
                 onClick={() => setActivePage('contact')}
-                className="px-8 py-3.5 rounded bg-indigo-900 hover:bg-indigo-800 text-white font-bold text-xs uppercase tracking-widest transition-all shadow-md shadow-indigo-900/10 hover:shadow-indigo-900/20 active:scale-95 cursor-pointer"
+                className="px-8 py-3.5 rounded bg-orange-600 hover:bg-orange-700 text-white font-bold text-xs uppercase tracking-widest transition-all shadow-md shadow-orange-900/20 hover:shadow-orange-900/30 active:scale-95 cursor-pointer"
               >
                 {cms.heroCtaText || "Get Free Consultation"}
               </button>
@@ -521,163 +521,7 @@ export default function Home({ settings, cms, services, testimonials, team, jour
 
         </div>
       </section>
-
-      {/* SECTION 4.5: MEET OUR CHARTERED PARTNERS */}
-      <section className="bg-slate-50 py-24 px-4 sm:px-6 lg:px-8 border-b border-slate-200 relative overflow-hidden" id="team-section">
-        <div className="absolute top-1/3 left-0 w-72 h-72 bg-indigo-100 rounded-full filter blur-[120px] pointer-events-none" />
-        
-        <div className="max-w-7xl mx-auto space-y-16 relative z-10">
-          
-          {/* Section Header */}
-          <div className="text-center max-w-3xl mx-auto space-y-3">
-            <span className="text-xs font-mono font-bold uppercase tracking-widest text-indigo-900 bg-indigo-100/60 border border-indigo-200/50 px-3 py-1 rounded">
-              Partners & Leaders
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
-              Meet Our Chartered Partners
-            </h2>
-            <p className="text-slate-500 text-sm max-w-xl mx-auto font-sans font-light leading-relaxed">
-              Our registered practitioners combine regulatory mastery with absolute integrity to provide industry-leading audit, tax, and advisory counsel.
-            </p>
-          </div>
-
-          {/* Partners Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {(team && team.length > 0 ? team : [
-              {
-                _id: "t1",
-                name: "CA Rahul Bajaj",
-                designation: "Founder & Senior Partner",
-                imageUrl: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500",
-                description: "Chartered Accountant with 15+ years of extensive experience in Corporate Auditing, International Tax, and High-Value Business Restructuring. Ex-consultant at top-tier firms.",
-                socialLinks: {
-                  facebook: "https://facebook.com",
-                  linkedin: "https://linkedin.com",
-                  twitter: "https://twitter.com"
-                }
-              },
-              {
-                _id: "t2",
-                name: "CA Neha Sharma",
-                designation: "Partner - Indirect Tax & GST Specialist",
-                imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=500",
-                description: "Expert in national Goods and Services Tax (GST) mechanisms, state tax policy representations, and complex corporate dispute resolutions. Author of several tax compliance digests.",
-                socialLinks: {
-                  facebook: "https://facebook.com",
-                  linkedin: "https://linkedin.com",
-                  twitter: "https://twitter.com"
-                }
-              },
-              {
-                _id: "t3",
-                name: "Amit Patel",
-                designation: "Senior Corporate Accounting Head",
-                imageUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500",
-                description: "Passionate about micro-detailing corporate balance sheets and streamlining multi-layered payroll workflows. Guides our accounting interns and oversees ERP bookkeeping audits.",
-                socialLinks: {
-                  facebook: "https://facebook.com",
-                  linkedin: "https://linkedin.com",
-                  twitter: "https://twitter.com"
-                }
-              },
-              {
-                _id: "t4",
-                name: "Priya Mishra",
-                designation: "Corporate Compliance Officer",
-                imageUrl: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
-                description: "Specializes in MCA filing algorithms, startup incorporation frameworks, ROC corporate governance, and digital trademark filings. Ensures compliance with zero regulatory friction.",
-                socialLinks: {
-                  facebook: "https://facebook.com",
-                  linkedin: "https://linkedin.com",
-                  twitter: "https://twitter.com"
-                }
-              }
-            ]).map((member) => (
-              <div
-                key={member._id}
-                className="rounded-xl overflow-hidden bg-white border border-slate-200/80 hover:border-indigo-900/30 transition-all duration-300 flex flex-col group shadow-sm hover:shadow-md hover:-translate-y-1"
-              >
-                {/* Photo frame with zoom effect */}
-                <div className="h-64 w-full bg-slate-100 overflow-hidden relative">
-                  <img
-                    src={member.imageUrl}
-                    alt={member.name}
-                    referrerPolicy="no-referrer"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent opacity-80" />
-                </div>
-
-                {/* Profile detail */}
-                <div className="p-6 flex-1 flex flex-col justify-between space-y-4 text-left">
-                  <div className="space-y-2">
-                    <h3 className="text-base font-bold font-display text-slate-900 group-hover:text-indigo-900 transition-colors">
-                      {member.name}
-                    </h3>
-                    <span className="text-[11px] font-mono font-bold tracking-wide uppercase text-indigo-900 bg-indigo-50/70 border border-indigo-100/50 px-2 py-0.5 rounded inline-block">
-                      {member.designation}
-                    </span>
-                    <p className="text-slate-500 text-xs leading-relaxed font-sans font-light pt-2 line-clamp-3">
-                      {member.description}
-                    </p>
-                  </div>
-
-                  {/* Social icons */}
-                  {member.socialLinks && (
-                    <div className="flex items-center gap-3 pt-4 border-t border-slate-100">
-                      {member.socialLinks.linkedin && (
-                        <a
-                          href={member.socialLinks.linkedin}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="p-1.5 rounded-full hover:bg-slate-50 text-slate-400 hover:text-indigo-900 transition-all"
-                          aria-label={`${member.name} LinkedIn`}
-                        >
-                          <Linkedin size={14} className="stroke-[2px]" />
-                        </a>
-                      )}
-                      {member.socialLinks.twitter && (
-                        <a
-                          href={member.socialLinks.twitter}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="p-1.5 rounded-full hover:bg-slate-50 text-slate-400 hover:text-indigo-900 transition-all"
-                          aria-label={`${member.name} Twitter`}
-                        >
-                          <Twitter size={14} className="stroke-[2px]" />
-                        </a>
-                      )}
-                      {member.socialLinks.facebook && (
-                        <a
-                          href={member.socialLinks.facebook}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="p-1.5 rounded-full hover:bg-slate-50 text-slate-400 hover:text-indigo-900 transition-all"
-                          aria-label={`${member.name} Facebook`}
-                        >
-                          <Facebook size={14} className="stroke-[2px]" />
-                        </a>
-                      )}
-                    </div>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Call to action for appointment */}
-          <div className="text-center pt-4">
-            <button
-              onClick={() => setActivePage('contact')}
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-indigo-950 hover:bg-indigo-900 text-white font-semibold text-xs font-mono uppercase tracking-wider shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5 cursor-pointer border border-indigo-900"
-            >
-              <span>Consult a Partner</span>
-              <ArrowRight size={14} />
-            </button>
-          </div>
-
-        </div>
-      </section>
+ 
 
       {/* SECTION 4.8: OUR JOURNEY */}
       <section className="bg-white py-24 px-4 sm:px-6 lg:px-8 border-b border-slate-200 relative overflow-hidden" id="journey-section">
@@ -982,7 +826,7 @@ export default function Home({ settings, cms, services, testimonials, team, jour
           <div className="flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full md:w-auto relative z-10">
             <button
               onClick={() => setActivePage('contact')}
-              className="w-full sm:w-auto px-8 py-3.5 rounded bg-white hover:bg-slate-100 text-indigo-950 font-bold text-xs uppercase tracking-widest transition-all shadow-md cursor-pointer"
+              className="w-full sm:w-auto px-8 py-3.5 rounded bg-white hover:bg-orange-50 text-orange-600 font-bold text-xs uppercase tracking-widest transition-all shadow-md cursor-pointer"
             >
               Contact Us Now
             </button>

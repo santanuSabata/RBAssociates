@@ -77,20 +77,15 @@ export default function Navbar({ activePage, setActivePage, settings, adminLogge
             <img 
               src={settings.websiteLogo} 
               alt={settings.websiteName || "Logo"} 
-              className="h-10 w-auto max-w-[140px] object-contain transition-transform hover:scale-105" 
+              className="h-15 w-auto max-w-[140px] object-contain transition-transform hover:scale-105" 
               referrerPolicy="no-referrer"
             />
           ) : (
-            <div className="h-10 w-10 rounded bg-indigo-900 flex items-center justify-center shadow-md shadow-indigo-900/10 transition-transform hover:scale-105">
+            <div className="h-15 w-10 rounded bg-indigo-900 flex items-center justify-center shadow-md shadow-indigo-900/10 transition-transform hover:scale-105">
               <span className="text-lg font-bold font-display tracking-tight text-white">RB</span>
             </div>
           )}
-          <div>
-            <span className="text-xl font-extrabold font-display tracking-tight text-slate-900 block hover:text-indigo-900 transition-colors">
-              {settings.websiteName || "RB Associates"}
-            </span>
-            <p className="text-[9px] text-indigo-600 tracking-widest uppercase font-mono font-semibold -mt-1">Chartered Accountants</p>
-          </div>
+           
         </div>
 
         {/* Desktop Navbar Links */}
@@ -115,13 +110,13 @@ export default function Navbar({ activePage, setActivePage, settings, adminLogge
         <div className="hidden md:flex items-center gap-4">
           <a
             href={`tel:${settings.whatsAppNumber}`}
-            className="flex items-center gap-2 bg-indigo-900 hover:bg-indigo-800 text-white font-bold px-5 py-2.5 rounded text-xs tracking-widest uppercase transition-all duration-200 shadow-md shadow-indigo-900/15 hover:shadow-indigo-900/25 active:scale-95"
+            className="flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white font-bold px-5 py-2.5 rounded text-xs tracking-widest uppercase transition-all duration-200 shadow-md shadow-orange-900/20 hover:shadow-orange-900/30 active:scale-95"
           >
             <Phone size={13} className="stroke-[3]" />
             <span>Consult Now</span>
           </a>
         </div>
-
+        
         {/* Mobile Navigation Trigger */}
         <div className="md:hidden flex items-center gap-3">
           {adminLoggedIn && (
