@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "t1",
+    "name": "CA Rahul Bajaj",
+    "designation": "Founder & Senior Partner",
+    "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500",
+    "description": "Chartered Accountant with 15+ years of extensive experience in Corporate Auditing, International Tax, and High-Value Business Restructuring. Ex-consultant at top-tier firms.",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+  {
+    "_id": "t2",
+    "name": "CA Neha Sharma",
+    "designation": "Partner - Indirect Tax & GST Specialist",
+    "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=500",
+    "description": "Expert in national Goods and Services Tax (GST) mechanisms, state tax policy representations, and complex corporate dispute resolutions. Author of several tax compliance digests.",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+  {
+    "_id": "t3",
+    "name": "Amit Patel",
+    "designation": "Senior Corporate Accounting Head",
+    "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500",
+    "description": "Passionate about micro-detailing corporate balance sheets and streamlining multi-layered payroll workflows. Guides our accounting interns and oversees ERP bookkeeping audits.",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+  {
+    "_id": "t4",
+    "name": "Priya Mishra",
+    "designation": "Corporate Compliance Officer",
+    "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
+    "description": "Specializes in MCA filing algorithms, startup incorporation frameworks, ROC corporate governance, and digital trademark filings. Ensures compliance with zero regulatory friction.",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com"
+    }
+  }
+]

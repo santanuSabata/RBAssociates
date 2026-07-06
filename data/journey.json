@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "j1",
+    "year": "2012",
+    "title": "The Inception",
+    "description": "Founded by CA Rahul Bajaj in Raipur with a small desk and a single goal: to make compliance effortless for local MSMEs.",
+    "iconName": "Building2"
+  },
+  {
+    "_id": "j2",
+    "year": "2016",
+    "title": "Digital Integration",
+    "description": "Transitioned to cloud-based accounting systems, introducing remote bookkeeping and fast GST filing to 200+ active corporate clients.",
+    "iconName": "TrendingUp"
+  },
+  {
+    "_id": "j3",
+    "year": "2020",
+    "title": "The Resilience Chapter",
+    "description": "Navigated complex post-pandemic corporate restructures, protecting clients from financial exposure through deep regulatory audit mastery.",
+    "iconName": "Shield"
+  },
+  {
+    "_id": "j4",
+    "year": "2024",
+    "title": "Chartered Partners Scaling",
+    "description": "Expanded our team with specialist senior partners to establish an end-to-end tax advisory, audit leadership, and corporate compliance practice.",
+    "iconName": "Award"
+  }
+]

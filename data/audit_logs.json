@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "5vwclcqhsw4pv0r05hihv",
+    "action": "Update Settings",
+    "details": "Modified keys: websiteName, websiteLogo, websiteFavicon, websiteTagline, shortDescription, prim...",
+    "performedBy": "CA Rahul Bajaj (admin)",
+    "timestamp": "2026-07-05T23:58:00.578Z"
+  },
+  {
+    "_id": "log-seed",
+    "action": "System Initialization",
+    "details": "Seed database created and initialized with defaults.",
+    "performedBy": "System Root",
+    "timestamp": "2026-07-05T23:58:00.565Z"
+  }
+]

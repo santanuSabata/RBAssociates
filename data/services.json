@@ -1,0 +1,106 @@
+[
+  {
+    "_id": "s1",
+    "title": "Income Tax Filing",
+    "iconName": "FileText",
+    "description": "Complete tax planning, optimization, and ITR filing for individuals, partnership firms, LLPs, and corporates. We handle intricate deductions and provide official tax representations.",
+    "benefits": [
+      "Minimize tax liability legally",
+      "Avoid late penalties and scrutiny notices",
+      "Accurate computation of advance tax",
+      "Representations before tax authorities"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "_id": "s2",
+    "title": "GST Registration & Filing",
+    "iconName": "FileCheck",
+    "description": "End-to-end GST compliance services including new GST registration, composition scheme transitions, monthly returns (GSTR-1, 3B), annual reconciliation, and audit support.",
+    "benefits": [
+      "Input Tax Credit (ITC) optimization",
+      "Hassle-free monthly reconciliation",
+      "GST audit & investigation defense",
+      "Smooth e-Way Bill generation guidance"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "_id": "s3",
+    "title": "Accounting Services",
+    "iconName": "Calculator",
+    "description": "Premium corporate bookkeeping, preparation of balance sheets, cash-flow statements, management reporting (MIS), and complete payroll management structured to regulatory standards.",
+    "benefits": [
+      "Real-time visibility into company expenses",
+      "Audit-ready financial books maintained daily",
+      "Robust payroll structure with EPF/ESIC compliance",
+      "Custom weekly MIS reports for directors"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "_id": "s4",
+    "title": "Audit & Assurance",
+    "iconName": "ShieldAlert",
+    "description": "Statutory audits under Companies Act, tax audits under Income Tax Act, internal reviews for process improvement, forensic auditing to uncover irregularities, and stock audits.",
+    "benefits": [
+      "Enhanced creditworthiness with financial institutions",
+      "Detection and prevention of operational leakages",
+      "Strict compliance with Indian Accounting Standards (Ind AS)",
+      "Unbiased reports for shareholders"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "_id": "s5",
+    "title": "Company Registration",
+    "iconName": "Building2",
+    "description": "Accelerate your entrepreneurial journey. We register Private Limited Companies, LLPs, One Person Companies (OPC), Section 8 Non-Profits, and obtain PAN, TAN, and DIN.",
+    "benefits": [
+      "Full certificate of incorporation in 5-7 days",
+      "Name search guidance and digital signature processing",
+      "Immediate corporate bank account opening assistance",
+      "Consultation on post-incorporation legalities"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "_id": "s6",
+    "title": "Compliance Management",
+    "iconName": "Briefcase",
+    "description": "Avoid massive penalties with our corporate secretarial packages. We handle ROC Annual Filings (MGT-7, AOC-4), Board Meeting minutes, DIN KYC, and trademark registrations.",
+    "benefits": [
+      "Maintain an active and healthy company registry",
+      "Protection against director disqualifications",
+      "Corporate restructuring advice (shares, additions)",
+      "Comprehensive regulatory calendar tracking"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "_id": "s7",
+    "title": "Financial Planning",
+    "iconName": "TrendingUp",
+    "description": "Comprehensive capital budgeting, investment advisory, project report preparation, bank loan syndication, debt restructuring, and wealth optimization advice.",
+    "benefits": [
+      "High-chance project reports for bank approvals",
+      "Optimal debt-to-equity restructuring",
+      "Corporate wealth management with strong returns",
+      "Business valuation for fundraising"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "_id": "s8",
+    "title": "Business Advisory",
+    "iconName": "Compass",
+    "description": "Strategic counseling for business growth, cash-flow models, startup mentorship, mergers and acquisitions, and cost optimization plans for maximizing profit margins.",
+    "benefits": [
+      "Actionable strategy to scale business models",
+      "Identify and cut redundant overhead costs",
+      "Expert negotiations and deal-structuring support",
+      "Sustained quarterly expansion planning"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+  }
+]

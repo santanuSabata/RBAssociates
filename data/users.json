@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "admin-user",
+    "email": "admin@rbassociates.com",
+    "username": "admin",
+    "fullName": "CA Rahul Bajaj",
+    "password": "$2b$10$JZy09XY5/93SFa2qkCG4ae73YH8T/uln34C2Cvro9zDiRU97/JlHe",
+    "role": "Administrator",
+    "createdAt": "2026-07-05T23:51:46.266Z"
+  }
+]

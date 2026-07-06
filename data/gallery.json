@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "g1",
+    "title": "Executive Office Space",
+    "category": "Office",
+    "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
+    "description": "Our premium corporate consulting office located in VIP Road, Raipur."
+  },
+  {
+    "_id": "g2",
+    "title": "Annual Budget Webinar",
+    "category": "Seminars",
+    "imageUrl": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80&w=800",
+    "description": "CA Rahul Bajaj delivering key insights on Union Budget impact analysis."
+  },
+  {
+    "_id": "g3",
+    "title": "Client Consultation Session",
+    "category": "Client Meets",
+    "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=800",
+    "description": "Strategic financial restructuring discussion with key industry clients."
+  },
+  {
+    "_id": "g4",
+    "title": "Core Advisory Team",
+    "category": "Office",
+    "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=800",
+    "description": "Our experienced partners analyzing national tax policy updates."
+  },
+  {
+    "_id": "g5",
+    "title": "Tax Excellence Summit",
+    "category": "Seminars",
+    "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=800",
+    "description": "Honored with the Leadership in Corporate compliance trophy in Raipur."
+  },
+  {
+    "_id": "g6",
+    "title": "Corporate Client Advisory",
+    "category": "Client Meets",
+    "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800",
+    "description": "Reviewing company compliance status boards during a quarterly meeting."
+  }
+]

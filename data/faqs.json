@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "faq-1",
+    "question": "What is the standard due date for individual Income Tax filing in India?",
+    "answer": "For individual taxpayers, salaried employees, and business entities whose accounts do not require an audit, the standard due date for filing Income Tax Returns (ITR) is July 31st of the assessment year. For companies and audited entities, it is usually October 31st.",
+    "category": "Taxation",
+    "isActive": true
+  },
+  {
+    "_id": "faq-2",
+    "question": "Who is required to obtain GST registration?",
+    "answer": "GST registration is mandatory for businesses supplying goods with an annual aggregate turnover exceeding ₹40 Lakhs (₹20 Lakhs for special category states) and for service providers exceeding ₹20 Lakhs (₹10 Lakhs for special category states). Casual taxable persons and e-commerce operators must register regardless of turnover.",
+    "category": "GST Compliance",
+    "isActive": true
+  },
+  {
+    "_id": "faq-3",
+    "question": "What are the key corporate ROC compliance requirements after incorporation?",
+    "answer": "Post-incorporation compliance includes appointing a statutory auditor within 30 days, holding the first board meeting within 30 days, filing Form INC-20A (Commencement of Business) within 180 days, and conducting annual general meetings (AGM) along with filing AOC-4 (financial statements) and MGT-7 (annual return).",
+    "category": "Corporate ROC",
+    "isActive": true
+  },
+  {
+    "_id": "faq-4",
+    "question": "Can I claim Input Tax Credit (ITC) on all business purchases?",
+    "answer": "You can claim ITC on most goods and services used in the course or furtherance of business. However, Section 17(5) of the CGST Act blocks ITC on specific items, such as motor vehicles (with exceptions), food and beverages, club memberships, personal consumption, and goods lost or destroyed.",
+    "category": "GST Compliance",
+    "isActive": true
+  },
+  {
+    "_id": "faq-5",
+    "question": "What is advance tax, and who needs to pay it?",
+    "answer": "Advance tax is tax paid in advance during the financial year instead of a lump sum at the year-end. It is mandatory for any taxpayer (salaried, self-employed, or corporate) whose estimated total tax liability for the year, after deducting TDS/TCS, is ₹10,000 or more.",
+    "category": "Taxation",
+    "isActive": true
+  }
+]

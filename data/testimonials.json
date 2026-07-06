@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "test1",
+    "clientName": "Rajesh Agarwal",
+    "companyName": "Raipur Steel Industries",
+    "review": "RB Associates has transformed our corporate tax structuring completely. Their compliance auditing is detail-oriented, accurate, and saves us from costly errors. Absolutely outstanding service!",
+    "rating": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300"
+  },
+  {
+    "_id": "test2",
+    "clientName": "Ananya Sahu",
+    "companyName": "Chhattisgarh Organics Pvt Ltd",
+    "review": "As a young startup founder, I was overwhelmed by legalities like ROC, GST registration, and corporate bylaws. CA Neha and Priya handled everything effortlessly. It allowed us to focus purely on product growth.",
+    "rating": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=300"
+  },
+  {
+    "_id": "test3",
+    "clientName": "Vikram Singh",
+    "companyName": "V.S. Logistics Raipur",
+    "review": "Statutory tax audit was always a stressful event until we partnered with RB Associates. Their transparent work systems, secure electronic portals, and proactive advisory have added immense trust to our accounts.",
+    "rating": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=300"
+  }
+]

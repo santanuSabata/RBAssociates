@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "p1",
+    "name": "Apex Solutions",
+    "logoUrl": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=200",
+    "websiteUrl": "https://example.com"
+  },
+  {
+    "_id": "p2",
+    "name": "Horizon Enterprises",
+    "logoUrl": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&q=80&w=200",
+    "websiteUrl": "https://example.com"
+  },
+  {
+    "_id": "p3",
+    "name": "Prime Consulting",
+    "logoUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=200",
+    "websiteUrl": "https://example.com"
+  },
+  {
+    "_id": "p4",
+    "name": "Nexa Industries",
+    "logoUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=200",
+    "websiteUrl": "https://example.com"
+  },
+  {
+    "_id": "p5",
+    "name": "Stellar Venture Partners",
+    "logoUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=200",
+    "websiteUrl": "https://example.com"
+  }
+]
