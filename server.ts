@@ -22,7 +22,7 @@ import { errorHandler } from './server/middleware/errorHandler.js';
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Increase body parser limits to support base64 image uploads securely
   app.use(express.json({ limit: '50mb' }));

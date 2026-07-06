@@ -213,4 +213,4 @@ export default function Footer({ settings, setActivePage }: FooterProps) {
       </div>
     </footer>
   );
-}
+} 
